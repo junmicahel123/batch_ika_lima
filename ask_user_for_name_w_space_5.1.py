@@ -3,3 +3,12 @@
 #Input:         Juan Dela Cruz
 #Output: Juan Dela Cruz
 
+#ask for user input name
+# trim the space using lstrip()
+# print results
+
+pangalan = input("Ano pangalan mo:?  ")
+
+no_space_ngalan = pangalan.lstrip()
+
+print(no_space_ngalan)
