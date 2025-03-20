@@ -8,7 +8,6 @@
 # print results
 
 number_val = int(input("Input number from 0 - 1000::  "))
-
 converted_val = f"{number_val:06d}"
 
 print(converted_val)
