@@ -4,5 +4,11 @@
 #Output: JUAN DELA CRUZ
 
 # ask user for name input
-# use .alpha function
+# use uppercase function
 # print results
+
+asker_ = input("What is your name?:: ")
+
+all_caps_ = asker_.upper()
+
+print(all_caps_)
