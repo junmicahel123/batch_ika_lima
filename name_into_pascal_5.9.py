@@ -7,3 +7,8 @@
 # convert using title.replace
 # print
 
+fullname_ = input("What's your fullname?:: ")
+
+converted_ = fullname_.title().replace(" ", "")
+
+print(converted_)
