@@ -7,3 +7,8 @@
 # convert the input to title()
 # print
 
+full_name = input("What is your name?::  ")
+
+proper_cased = full_name.title()
+
+print(proper_cased)
