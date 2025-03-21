@@ -7,3 +7,8 @@
 # convert iusing len and split()
 # print 
 
+statement_ = input("What's your statemet?::  ")
+
+number_of_words_ = len(statement_.split())
+
+print(number_of_words_)
