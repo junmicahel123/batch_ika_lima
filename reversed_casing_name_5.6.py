@@ -7,3 +7,8 @@
 # convert using swapcase()
 # print product
 
+full_name = input("What' ypur name in incorrect casing?::  ")
+
+reversed_name = full_name.swapcase()
+
+print(reversed_name)
